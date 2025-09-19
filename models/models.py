@@ -412,3 +412,5 @@ class ImplicitRegistrator:
         # Perform training iterations
         for i in tqdm.tqdm(range(epochs)):
             self.training_iteration(i)
+
+        
